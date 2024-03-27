@@ -27,11 +27,11 @@
         {
           "name": "fastconfigapi-fabric-1.0.1.jar",
           "url": "fastconfigapi-fabric-1.0.1.jar",
-          "size": 262628,
-          "sha512": "5a333e150c612c1a4a6d925678c9234fae99e44266705d4d29d1dfbc7ab5e7d3444f0539e33f7f2b0fd8a1d8e62893ec9c0da6c295f6212849002e6037f0cdcc",
-          "sha256": "db8a492c2dc2c1e2c62d4e9ba686ccd4ef7e9ea71b4ddbe698ccc844356a085f",
-          "sha1": "fdf37030605d631920636897baeb768b62baccf5",
-          "md5": "469ace5c3901c75c2f97076815ab7b52"
+          "size": 262622,
+          "sha512": "adf5920d897bc6697945fafb2fa55ab6a4de11281d9eaffe2484a8bbb9ebb4314d62d37eca18d0615ea6029e0f51486742e49c65fab7121bfe695c6918a255a3",
+          "sha256": "34abf8c23783b417d092ac70301d04bcd81abec7f4b70490ecdba77a09d6513a",
+          "sha1": "2ca325b8413089d5d24919a6d0484bee0915950d",
+          "md5": "1c4261700aa506f906bbfbc4e71d0abd"
         }
       ]
     },
@@ -57,11 +57,11 @@
         {
           "name": "fastconfigapi-fabric-1.0.1.jar",
           "url": "fastconfigapi-fabric-1.0.1.jar",
-          "size": 262628,
-          "sha512": "5a333e150c612c1a4a6d925678c9234fae99e44266705d4d29d1dfbc7ab5e7d3444f0539e33f7f2b0fd8a1d8e62893ec9c0da6c295f6212849002e6037f0cdcc",
-          "sha256": "db8a492c2dc2c1e2c62d4e9ba686ccd4ef7e9ea71b4ddbe698ccc844356a085f",
-          "sha1": "fdf37030605d631920636897baeb768b62baccf5",
-          "md5": "469ace5c3901c75c2f97076815ab7b52"
+          "size": 262622,
+          "sha512": "adf5920d897bc6697945fafb2fa55ab6a4de11281d9eaffe2484a8bbb9ebb4314d62d37eca18d0615ea6029e0f51486742e49c65fab7121bfe695c6918a255a3",
+          "sha256": "34abf8c23783b417d092ac70301d04bcd81abec7f4b70490ecdba77a09d6513a",
+          "sha1": "2ca325b8413089d5d24919a6d0484bee0915950d",
+          "md5": "1c4261700aa506f906bbfbc4e71d0abd"
         }
       ]
     },
@@ -77,11 +77,11 @@
         {
           "name": "fastconfigapi-fabric-1.0.1-sources.jar",
           "url": "fastconfigapi-fabric-1.0.1-sources.jar",
-          "size": 260754,
-          "sha512": "5e49126e733641f89c297fa86c070ad5a1572d7eae9debd86a5bf808a9a76309e542020b73d8846038890843cedc3bf1db9695a5ba8f12f5ae024e16a9996d2d",
-          "sha256": "3e70ee70a6cc5f975cbff334b40bb7826cb9e709a23c56a6749e1c8355822b40",
-          "sha1": "81266c1b732c9f9325cea74d21ee325664297d94",
-          "md5": "9822d2b930932de3ff599b05c5cf7aa7"
+          "size": 260749,
+          "sha512": "883c45b060ef87319af0404fc96cd1dd5c7f755b68f7e16a034b35a673802346824e0f028fd65b53c75d67c813a1717b80010d452899b4c972176f355aff0e59",
+          "sha256": "7462b14678eac21fcaf35bb9af23f15fbcd5c338fb93cc96e5fbe307a2aed968",
+          "sha1": "2a9b4edac9b2543a0e6f91903d90c61b4f0dd0a9",
+          "md5": "dba258cc255f6f765b4e34beba6cb088"
         }
       ]
     }
