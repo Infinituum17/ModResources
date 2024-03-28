@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "infinituum.fastconfigapi",
+    "module": "fastconfigapi-forge",
+    "version": "1.20.3-1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-forge-1.20.3-1.0.1.jar",
+          "url": "fastconfigapi-forge-1.20.3-1.0.1.jar",
+          "size": 8387,
+          "sha512": "4bf2a728d98c78e25964966dec0685dac499e0e678449f7f41a1e00f206a70925d15e8a5a26187eb1da474dca157f40eee05b1151e9660cb825ac4671dbe6073",
+          "sha256": "471bbe38479d3fee5e783b10e074a55d0c592e3c236d18a3fc41598e4f1fdcd3",
+          "sha1": "cb132a0c097ed44abf53042842cf249a7b1a051e",
+          "md5": "b9b5da847203fa30438ae882a4d038e6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-forge-1.20.3-1.0.1.jar",
+          "url": "fastconfigapi-forge-1.20.3-1.0.1.jar",
+          "size": 8387,
+          "sha512": "4bf2a728d98c78e25964966dec0685dac499e0e678449f7f41a1e00f206a70925d15e8a5a26187eb1da474dca157f40eee05b1151e9660cb825ac4671dbe6073",
+          "sha256": "471bbe38479d3fee5e783b10e074a55d0c592e3c236d18a3fc41598e4f1fdcd3",
+          "sha1": "cb132a0c097ed44abf53042842cf249a7b1a051e",
+          "md5": "b9b5da847203fa30438ae882a4d038e6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-forge-1.20.3-1.0.1-sources.jar",
+          "url": "fastconfigapi-forge-1.20.3-1.0.1-sources.jar",
+          "size": 6612,
+          "sha512": "ff1307fce5264e216dd393711350df49b4d74f5e47bf8200e3c3a247bd296ae407bb156e9b4b094ad7d70927774af9f2be17a4f72a696cbb22e85fd204594d78",
+          "sha256": "dbb18744fae99745f4db812c9670dae37173caac25aff8b697f07f35a38e37e7",
+          "sha1": "24d9eea92a9d9fdb640bbd62316b36054b806a30",
+          "md5": "e107ae36904a6dd12df4c19566fb1fbe"
+        }
+      ]
+    }
+  ]
+}
