@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "infinituum.fastconfigapi",
+    "module": "fastconfigapi-neoforge",
+    "version": "1.20.6-1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-neoforge-1.20.6-1.1.1.jar",
+          "url": "fastconfigapi-neoforge-1.20.6-1.1.1.jar",
+          "size": 7453,
+          "sha512": "4070395edc69885b4b8bf349c0e6c42c95859a5427f870e7decb2a944be590c4d225639cbd0565d55377bcf78f4f15fbec49d70c201a4818aca1d82c81542931",
+          "sha256": "a47c56dd177abc4fc0fd2a7c00348b4b3077fd324dc513c12ee3a600807b3373",
+          "sha1": "5d2472dc3f6b9e023a4243198a4913b5b7f9ab74",
+          "md5": "5a3fbcdced44730d8a47d99b73c9a37c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-neoforge-1.20.6-1.1.1.jar",
+          "url": "fastconfigapi-neoforge-1.20.6-1.1.1.jar",
+          "size": 7453,
+          "sha512": "4070395edc69885b4b8bf349c0e6c42c95859a5427f870e7decb2a944be590c4d225639cbd0565d55377bcf78f4f15fbec49d70c201a4818aca1d82c81542931",
+          "sha256": "a47c56dd177abc4fc0fd2a7c00348b4b3077fd324dc513c12ee3a600807b3373",
+          "sha1": "5d2472dc3f6b9e023a4243198a4913b5b7f9ab74",
+          "md5": "5a3fbcdced44730d8a47d99b73c9a37c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-neoforge-1.20.6-1.1.1-sources.jar",
+          "url": "fastconfigapi-neoforge-1.20.6-1.1.1-sources.jar",
+          "size": 6119,
+          "sha512": "ba83b6952eadfea2f73bfb64914902309572e098f71d8344e8bce322f3eb8cd22f4ffac7813e43f70dbb4eec99c85014502e223c8fa1495bb13503de394173fe",
+          "sha256": "b7a6b11f9a45d0fb1e625c4f243ca1cbdf8589f82067468a9363f4bdc92610a6",
+          "sha1": "ebbe0ca10cd7162bb5dad4899888e7c6367f283f",
+          "md5": "25339253116ca66a40489ce4e793de2e"
+        }
+      ]
+    }
+  ]
+}
