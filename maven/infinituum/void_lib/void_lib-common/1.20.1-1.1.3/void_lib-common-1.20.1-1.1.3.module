@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "infinituum.void_lib",
+    "module": "void_lib-common",
+    "version": "1.20.1-1.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "void_lib-common-1.20.1-1.1.3.jar",
+          "url": "void_lib-common-1.20.1-1.1.3.jar",
+          "size": 18613,
+          "sha512": "7792db455b08353a79896d7b0518014cdbeeaf71d82489f114dc8b43d42a7ff1d6a310fa95b70726edb8504bbda152bc7d65d8d832cc95c58fbfdd2dab324e24",
+          "sha256": "b1ac75dd3a7e0957ce463b46c38273f917a8eda0aa2944cb1239732756ee50a8",
+          "sha1": "db09c50dab454248a6a2f1f0a96b77de1284a949",
+          "md5": "8169189b389eeac529b4d46c623e6bde"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "void_lib-common-1.20.1-1.1.3.jar",
+          "url": "void_lib-common-1.20.1-1.1.3.jar",
+          "size": 18613,
+          "sha512": "7792db455b08353a79896d7b0518014cdbeeaf71d82489f114dc8b43d42a7ff1d6a310fa95b70726edb8504bbda152bc7d65d8d832cc95c58fbfdd2dab324e24",
+          "sha256": "b1ac75dd3a7e0957ce463b46c38273f917a8eda0aa2944cb1239732756ee50a8",
+          "sha1": "db09c50dab454248a6a2f1f0a96b77de1284a949",
+          "md5": "8169189b389eeac529b4d46c623e6bde"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "void_lib-common-1.20.1-1.1.3-sources.jar",
+          "url": "void_lib-common-1.20.1-1.1.3-sources.jar",
+          "size": 17541,
+          "sha512": "0227f7fc5e5148a289a58873b15faea73b794123332e4296f1f9665e0ae163acf2c29db79974fa6e0aaa5b91dbc170f2e108b0dead7bb34446d083647334d61a",
+          "sha256": "85c61014e30ef06a3cb1df12539972b1be9fac1e27f9f11e70d53dc4ede9d18e",
+          "sha1": "747a47c54b590afe0cd097ac03c6a43240ea3df2",
+          "md5": "237a433038128bee8966091a572fb9d4"
+        }
+      ]
+    }
+  ]
+}
