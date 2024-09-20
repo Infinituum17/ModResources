@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "infinituum.fastconfigapi",
+    "module": "fastconfigapi-forge",
+    "version": "1.20.1-2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "infinituum.void_lib",
+          "module": "void_lib-forge",
+          "version": {
+            "requires": "1.20.1-1.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastconfigapi-forge-1.20.1-2.0.2.jar",
+          "url": "fastconfigapi-forge-1.20.1-2.0.2.jar",
+          "size": 276635,
+          "sha512": "cbf72863b807aa7416078a3bec895b6c6ca067f3825333ff81bef8fa99d387c5ed272f310e64e1aa9d222671da1bde47b3eab64f0ee1dd2eaac39484c45614e8",
+          "sha256": "c7b31ac778f97931939ff1baede9e66a8d789ca201b775959cd168dd26c0f66c",
+          "sha1": "b79afbfe44b2fadb507eab6a06b49a56ad2029b0",
+          "md5": "5a2364566f6f6d03f9fb84e03ebb4af8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          }
+        },
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "infinituum.void_lib",
+          "module": "void_lib-forge",
+          "version": {
+            "requires": "1.20.1-1.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastconfigapi-forge-1.20.1-2.0.2.jar",
+          "url": "fastconfigapi-forge-1.20.1-2.0.2.jar",
+          "size": 276635,
+          "sha512": "cbf72863b807aa7416078a3bec895b6c6ca067f3825333ff81bef8fa99d387c5ed272f310e64e1aa9d222671da1bde47b3eab64f0ee1dd2eaac39484c45614e8",
+          "sha256": "c7b31ac778f97931939ff1baede9e66a8d789ca201b775959cd168dd26c0f66c",
+          "sha1": "b79afbfe44b2fadb507eab6a06b49a56ad2029b0",
+          "md5": "5a2364566f6f6d03f9fb84e03ebb4af8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-forge-1.20.1-2.0.2-sources.jar",
+          "url": "fastconfigapi-forge-1.20.1-2.0.2-sources.jar",
+          "size": 4681,
+          "sha512": "a396e137bdf28e7c545a504023788b4697adf3ea504300da0a8b7b24bca90dfd11a86b837ca70cf706da16bf2bb95ef1b873d7e77feb5e9d039b3599ee755112",
+          "sha256": "2d86c08ffdb0269fe2c02916f8caedf46fadbb3958f23bbd55b180761bd2671e",
+          "sha1": "b03b020db60ae00a599ffa77efa0fdf6e6022449",
+          "md5": "92e51bef9457767fe7d9eb06250e38ef"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-forge-1.20.1-2.0.2-dev-shadow.jar",
+          "url": "fastconfigapi-forge-1.20.1-2.0.2-dev-shadow.jar",
+          "size": 35041,
+          "sha512": "c34d9d5fec3af1888314b333b5b3d1af86c6c9e9d4c7ea86f48911864c22b5f311159ee4d95a172ef8495235b3ecd277bc1687fb9708a9ee852995a3b800beee",
+          "sha256": "21de61c4203299e859484e715474d946cb5b04981c69daa2210280e0b7f09bab",
+          "sha1": "6fe45ac0b43e3c5ea97c8bfd82533344667fda88",
+          "md5": "334492ca245d418c46057322e1c5c819"
+        }
+      ]
+    }
+  ]
+}
