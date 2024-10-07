@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "infinituum.void_lib",
+    "module": "void_lib-neoforge",
+    "version": "1.21.1-1.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21.1-1.1.6.jar",
+          "url": "void_lib-neoforge-1.21.1-1.1.6.jar",
+          "size": 231365,
+          "sha512": "e7496311c49fcf47a86f7111b9e2aa437d72427f3aacfae7e006dd7154d216337de4f9e86616f969b86af15995e4d79ee30fda170e18e45e12d699ac86649144",
+          "sha256": "1fdad89d4d5e44a48c50c382d281ed394d9c00c21af173d94e464e3c0e4166f2",
+          "sha1": "893a74ac8648fde69a12c09af45219fe324287b5",
+          "md5": "82a465183b8136104dc2b3eb712f9237"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21.1-1.1.6.jar",
+          "url": "void_lib-neoforge-1.21.1-1.1.6.jar",
+          "size": 231365,
+          "sha512": "e7496311c49fcf47a86f7111b9e2aa437d72427f3aacfae7e006dd7154d216337de4f9e86616f969b86af15995e4d79ee30fda170e18e45e12d699ac86649144",
+          "sha256": "1fdad89d4d5e44a48c50c382d281ed394d9c00c21af173d94e464e3c0e4166f2",
+          "sha1": "893a74ac8648fde69a12c09af45219fe324287b5",
+          "md5": "82a465183b8136104dc2b3eb712f9237"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21.1-1.1.6-sources.jar",
+          "url": "void_lib-neoforge-1.21.1-1.1.6-sources.jar",
+          "size": 2116,
+          "sha512": "4a31358e1f550b4e733f204077c1fa203f88540011cd9befbc7745550a43d9e1e2eef43a96f97978b96e4f6228a72c7502cf64593090f76ae9004b9f1924346b",
+          "sha256": "72fd45db290661815f61fc433eecf176731588d6b4826c0e07b6aea232f22341",
+          "sha1": "68361dc24b74ce378ea1229760f4296220347fcb",
+          "md5": "b08dc9f698c8aa70984582c222288fbe"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21.1-1.1.6-dev-shadow.jar",
+          "url": "void_lib-neoforge-1.21.1-1.1.6-dev-shadow.jar",
+          "size": 230885,
+          "sha512": "9a0abe89e698d2d322887788d6873461cc485970b39a12505810b45aab3bcfb70c6abecb4d473e1bd34ead935eeec51342dcbd06d805981521cbd79630bf4a2c",
+          "sha256": "7ba19046bf4c50169cb1128f9f4a27d6be3ba9f7a80fca48bdf029c39499c70c",
+          "sha1": "46af3ea37657353be0e2e496ab427be1210209a1",
+          "md5": "cf49e233c17321c443aba9cd91c34dc6"
+        }
+      ]
+    }
+  ]
+}

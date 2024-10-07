@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "infinituum.void_lib",
+    "module": "void_lib-fabric",
+    "version": "1.21.1-1.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.104.0+1.21.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "13.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "void_lib-fabric-1.21.1-1.1.6.jar",
+          "url": "void_lib-fabric-1.21.1-1.1.6.jar",
+          "size": 269458,
+          "sha512": "4e3d20c6816062cb836058d1bc1d3a07a60f2ccef6811096e2db773823272c893c1993acdf93b28edc00b57da506844215346f0a51ef20e0a99034ef7137405d",
+          "sha256": "c922e1a015b385bbc1c3181e2835b5a1eb74dcb3231977bd175dd3c6c4aeaece",
+          "sha1": "be37d5f1e0d5bcf4641192920929b024d07810e2",
+          "md5": "f36404646cc2f17192aeaeeff1eedb4e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.104.0+1.21.1"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-fabric",
+          "version": {
+            "requires": "13.0.6"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "void_lib-fabric-1.21.1-1.1.6.jar",
+          "url": "void_lib-fabric-1.21.1-1.1.6.jar",
+          "size": 269458,
+          "sha512": "4e3d20c6816062cb836058d1bc1d3a07a60f2ccef6811096e2db773823272c893c1993acdf93b28edc00b57da506844215346f0a51ef20e0a99034ef7137405d",
+          "sha256": "c922e1a015b385bbc1c3181e2835b5a1eb74dcb3231977bd175dd3c6c4aeaece",
+          "sha1": "be37d5f1e0d5bcf4641192920929b024d07810e2",
+          "md5": "f36404646cc2f17192aeaeeff1eedb4e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "void_lib-fabric-1.21.1-1.1.6-sources.jar",
+          "url": "void_lib-fabric-1.21.1-1.1.6-sources.jar",
+          "size": 27254,
+          "sha512": "489cad1c1d0741ac2042799272872278a305558c25eda5a7bf82e282ffd2896d83994d49b0157985cc5d32d26f9cbda195f639d9cbc500df4345afdccf37f772",
+          "sha256": "3e66bbdb830fc88ddd257b366f414aef7eea40e8ad7f50ff50fd4b2a929df6b7",
+          "sha1": "04b755f1c6fd847c79226bee76eb1071a107918a",
+          "md5": "ab266b84e95564cb412038f1e34e1956"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "void_lib-fabric-1.21.1-1.1.6-dev-shadow.jar",
+          "url": "void_lib-fabric-1.21.1-1.1.6-dev-shadow.jar",
+          "size": 267847,
+          "sha512": "f1241d578165a886858889e3a3e60a5ba0b45dce35c57fe300ca23ea1622a64d1a43b63ae02943d6fa64e88b2b6590c1402d819c0967f5154fd82c8a323f86de",
+          "sha256": "631623f1d8c4fb1372560297a943e16803ebd3428c33c3b038f7625ab9c2f473",
+          "sha1": "ca7183860c4d4ec0e409ee01789767f5f05b15e7",
+          "md5": "fb347fec0876970480b3fbbc03962235"
+        }
+      ]
+    }
+  ]
+}
