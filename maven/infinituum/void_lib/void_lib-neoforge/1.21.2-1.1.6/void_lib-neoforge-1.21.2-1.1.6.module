@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "infinituum.void_lib",
+    "module": "void_lib-neoforge",
+    "version": "1.21.2-1.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "14.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21.2-1.1.6.jar",
+          "url": "void_lib-neoforge-1.21.2-1.1.6.jar",
+          "size": 231367,
+          "sha512": "5be01d95afb43a954c7467be47bd7e2a5e904c6e78e2c8f676f0ffcdaa6dafd321972034d33d70a0c99265c6dff32557443ded76f71d9243d78f444ab7c43bbf",
+          "sha256": "76091ae9a0e32b441e6f18b6794ee3748ee4aec267d379bcf3632856bd799c2a",
+          "sha1": "bbe6e503eb450820dbbc02a1c1dc2332b32c92f8",
+          "md5": "9067083aa3e2bf8be0653c4ffa7fc054"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "14.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21.2-1.1.6.jar",
+          "url": "void_lib-neoforge-1.21.2-1.1.6.jar",
+          "size": 231367,
+          "sha512": "5be01d95afb43a954c7467be47bd7e2a5e904c6e78e2c8f676f0ffcdaa6dafd321972034d33d70a0c99265c6dff32557443ded76f71d9243d78f444ab7c43bbf",
+          "sha256": "76091ae9a0e32b441e6f18b6794ee3748ee4aec267d379bcf3632856bd799c2a",
+          "sha1": "bbe6e503eb450820dbbc02a1c1dc2332b32c92f8",
+          "md5": "9067083aa3e2bf8be0653c4ffa7fc054"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21.2-1.1.6-sources.jar",
+          "url": "void_lib-neoforge-1.21.2-1.1.6-sources.jar",
+          "size": 2130,
+          "sha512": "6720c15dc0b97ed461fbeb90a9fa21533e5bb6d3bd26a01ec624c2ca86cc219d9e714d583e8986f9268ec211cc29da09e835463d130c2abc7bc98e4597beb130",
+          "sha256": "008563cbdafc0179a69f48f768c78f0350a37a70f08dec116aa74af79d8e212c",
+          "sha1": "c0bae05e0dc2e07902894c4a9b017b71a877d540",
+          "md5": "945be47fa3770ffa01f1648e34a65c45"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21.2-1.1.6-dev-shadow.jar",
+          "url": "void_lib-neoforge-1.21.2-1.1.6-dev-shadow.jar",
+          "size": 230887,
+          "sha512": "d9f95d3f3ce29cf41a675e197d52cde8b99da596c626eb17f5362d477a0abd8304a8b35e25a0ac2312ed803dc9b1d0a6e5e87b8dd9eb838b1478d0b22c77311f",
+          "sha256": "0443381a79c40808c1c203143d7705c76da18a547c75d1f547306531b1e59de9",
+          "sha1": "b39e2b7a933dae72142fe5a5f38563951b5d498c",
+          "md5": "a7c1ddc9f53527790ad86bddd0c3da6f"
+        }
+      ]
+    }
+  ]
+}
