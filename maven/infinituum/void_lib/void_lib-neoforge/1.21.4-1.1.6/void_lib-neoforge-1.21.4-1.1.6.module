@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "infinituum.void_lib",
+    "module": "void_lib-neoforge",
+    "version": "1.21.4-1.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "15.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21.4-1.1.6.jar",
+          "url": "void_lib-neoforge-1.21.4-1.1.6.jar",
+          "size": 231367,
+          "sha512": "288c236c04cc9f718b8f12e6a187667df230332a1b5e449e89f57a4f057b01775d172938ac2b3a13ab4d0e3812e46755265776f447e8d62d314ab7ddcce61a53",
+          "sha256": "a48a703427b28303cef043bbbc1991b9f8a45e8eb60ac625ee90d24e9d01c548",
+          "sha1": "b4269f2e96ce95a5537f4f27eb34c9001a2cda28",
+          "md5": "10e30beac76e8f19083b5dcac59f9845"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "15.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21.4-1.1.6.jar",
+          "url": "void_lib-neoforge-1.21.4-1.1.6.jar",
+          "size": 231367,
+          "sha512": "288c236c04cc9f718b8f12e6a187667df230332a1b5e449e89f57a4f057b01775d172938ac2b3a13ab4d0e3812e46755265776f447e8d62d314ab7ddcce61a53",
+          "sha256": "a48a703427b28303cef043bbbc1991b9f8a45e8eb60ac625ee90d24e9d01c548",
+          "sha1": "b4269f2e96ce95a5537f4f27eb34c9001a2cda28",
+          "md5": "10e30beac76e8f19083b5dcac59f9845"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21.4-1.1.6-sources.jar",
+          "url": "void_lib-neoforge-1.21.4-1.1.6-sources.jar",
+          "size": 2129,
+          "sha512": "fc8a238881146790fc292053adf8c8f337d809d4138dcc7b3f51e39c5063461a39a44824499d152030bda1eb8e47489b66f6d702ea3a284988056c58a8fbf104",
+          "sha256": "a52b2ffa2f92c94e57eec8789536b02d45b208be6085037a9417b5e877e122ce",
+          "sha1": "bfe4b761b82005d039ff51bf9fe9786140d84099",
+          "md5": "910a267209a327ad2f0116454d4997c3"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21.4-1.1.6-dev-shadow.jar",
+          "url": "void_lib-neoforge-1.21.4-1.1.6-dev-shadow.jar",
+          "size": 230887,
+          "sha512": "519e7c707c5743a0e73aff2373ee29e7940ac80565f6601455e65f8abe7aad9abdd3497575dacabf87c513554da615c9e48639df0f1f8d4d90b2e52fb25a110a",
+          "sha256": "9b7b54ddd1b06a9a15f8b1d396d249e661e3881539e146d4a7539ed95bf090ef",
+          "sha1": "d81a58a5c80e58f533e8bb69b93e411d06126218",
+          "md5": "0ab03d8f26a965c7d219db7e5f9c11e7"
+        }
+      ]
+    }
+  ]
+}
