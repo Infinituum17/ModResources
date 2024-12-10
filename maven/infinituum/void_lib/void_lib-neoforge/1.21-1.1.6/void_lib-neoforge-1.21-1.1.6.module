@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "infinituum.void_lib",
+    "module": "void_lib-neoforge",
+    "version": "1.21-1.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21-1.1.6.jar",
+          "url": "void_lib-neoforge-1.21-1.1.6.jar",
+          "size": 231369,
+          "sha512": "d106036c5e7cb8fbeb8f3be3370dc8052fc269cf018cb539dc216b74b142e16382f9ac37930d73015a4c7f7f120019c1cf175164714d6764cffb75f8a359980e",
+          "sha256": "0b5688284ef9e4dfc4fb316eba23e165726f43bf6c62d6ad19f603738b76935b",
+          "sha1": "4d374928ecb0568cfea28d37a3df28072ce0ac7e",
+          "md5": "545f0157d803306887f267aeda9ce293"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21-1.1.6.jar",
+          "url": "void_lib-neoforge-1.21-1.1.6.jar",
+          "size": 231369,
+          "sha512": "d106036c5e7cb8fbeb8f3be3370dc8052fc269cf018cb539dc216b74b142e16382f9ac37930d73015a4c7f7f120019c1cf175164714d6764cffb75f8a359980e",
+          "sha256": "0b5688284ef9e4dfc4fb316eba23e165726f43bf6c62d6ad19f603738b76935b",
+          "sha1": "4d374928ecb0568cfea28d37a3df28072ce0ac7e",
+          "md5": "545f0157d803306887f267aeda9ce293"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21-1.1.6-sources.jar",
+          "url": "void_lib-neoforge-1.21-1.1.6-sources.jar",
+          "size": 2128,
+          "sha512": "bea5a7c6ff3dee1b052578e74a0dc87791bab708845b929cfb8047a06845af97d3a7cf0cddbbdb0a356648b1bd40517e40c8622c67fab58a4389e52ce0c0c896",
+          "sha256": "2fd38823632a10a650a64e57aafbfca997a1013ce4bbe3765d86855550423904",
+          "sha1": "20a21c8d657f1d8943e7cf05d2c985fb9ae6fbab",
+          "md5": "21d33482e49fbe97477016f5375f59a4"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "void_lib-neoforge-1.21-1.1.6-dev-shadow.jar",
+          "url": "void_lib-neoforge-1.21-1.1.6-dev-shadow.jar",
+          "size": 230889,
+          "sha512": "237c4f2c145161b749d4506e6f592fb6b03139058dab6432ffc09bdceba53efe3d5f68d2c344d62f925b953cd81671c5ef87581250c2bfee0fce02c33fe30cd2",
+          "sha256": "7af18aa2d1f7dda8673717f2abd84a585e9dc2b5bcd0776ac1854a5cd9071dbc",
+          "sha1": "81a8aaf70d3614d7b414bc8511d17bf754632605",
+          "md5": "05b44064b02e14946f91d328f3fe8057"
+        }
+      ]
+    }
+  ]
+}
