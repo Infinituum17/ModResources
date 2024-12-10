@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.9"
+      "version": "8.11.1"
     }
   },
   "variants": [
@@ -28,7 +28,7 @@
           "group": "infinituum.void_lib",
           "module": "void_lib-neoforge",
           "version": {
-            "requires": "1.21-1.1.5"
+            "requires": "1.21-1.1.6"
           }
         }
       ],
@@ -36,11 +36,11 @@
         {
           "name": "fastconfigapi-neoforge-1.21-2.1.0.jar",
           "url": "fastconfigapi-neoforge-1.21-2.1.0.jar",
-          "size": 94227,
-          "sha512": "5f050e62e3d105956d6563458bc329896961dc18f8c0449b1e20d39ad0492fdd6417356071a0d4f43d34ecfa0df6871b61f7e4146cfda779ede763944d90479f",
-          "sha256": "fcc7770560867b7e002c11fa6a4e5537dae25c26b1ed3a92c6285ca436e54644",
-          "sha1": "38dc28a53d14dae4a8031717989b878fbcbf85e4",
-          "md5": "f4e29e0645eda36efeed836a8b896a0d"
+          "size": 108376,
+          "sha512": "82c6565e091efddd5170ed020345cd839c6dd2d21a1e40239c577cc72c9de65af24f114985bce87b1f7af2ec80e5977cc6d20a8ddc33fb293111b2003ffce934",
+          "sha256": "a30c92c76ec879b7f0dc4313a74cd52135ac2cd7193bedd0eec6bd84df41f1f2",
+          "sha1": "4278e54faa613ad7cab06eab08e5d052120a38a0",
+          "md5": "7859b4004dcc0e80afd68bda395c27fa"
         }
       ]
     },
@@ -58,7 +58,7 @@
           "group": "infinituum.void_lib",
           "module": "void_lib-neoforge",
           "version": {
-            "requires": "1.21-1.1.5"
+            "requires": "1.21-1.1.6"
           }
         }
       ],
@@ -66,11 +66,11 @@
         {
           "name": "fastconfigapi-neoforge-1.21-2.1.0.jar",
           "url": "fastconfigapi-neoforge-1.21-2.1.0.jar",
-          "size": 94227,
-          "sha512": "5f050e62e3d105956d6563458bc329896961dc18f8c0449b1e20d39ad0492fdd6417356071a0d4f43d34ecfa0df6871b61f7e4146cfda779ede763944d90479f",
-          "sha256": "fcc7770560867b7e002c11fa6a4e5537dae25c26b1ed3a92c6285ca436e54644",
-          "sha1": "38dc28a53d14dae4a8031717989b878fbcbf85e4",
-          "md5": "f4e29e0645eda36efeed836a8b896a0d"
+          "size": 108376,
+          "sha512": "82c6565e091efddd5170ed020345cd839c6dd2d21a1e40239c577cc72c9de65af24f114985bce87b1f7af2ec80e5977cc6d20a8ddc33fb293111b2003ffce934",
+          "sha256": "a30c92c76ec879b7f0dc4313a74cd52135ac2cd7193bedd0eec6bd84df41f1f2",
+          "sha1": "4278e54faa613ad7cab06eab08e5d052120a38a0",
+          "md5": "7859b4004dcc0e80afd68bda395c27fa"
         }
       ]
     },
@@ -86,11 +86,11 @@
         {
           "name": "fastconfigapi-neoforge-1.21-2.1.0-sources.jar",
           "url": "fastconfigapi-neoforge-1.21-2.1.0-sources.jar",
-          "size": 5880,
-          "sha512": "2ac9f1b81769098e488e59c3647fce89121bd203f79f7403c44d79fdc47d210bab4ddbcb736081f3fbe84a294585951fb79c5deb3322bbd65eceac8aed466533",
-          "sha256": "cb0fb929c889cc7b8d5a4aa4db83577f4b2c5607c1ec53720de737d12b73ba4f",
-          "sha1": "da7374a5c62bbef86dce46ed3a70f83741517dd0",
-          "md5": "33a294c81e93ebd58d8bda815bfb5e95"
+          "size": 4578,
+          "sha512": "c47692ebdd396128a98f7c605a27e8106f131f53246ec4e5e945864a964388a4fa2c7bfc2fea3fb75fbe29b6d69c8e17eaae1a368d5a7ba78cbcec17a5d49081",
+          "sha256": "83d86ea4dbae7ae5642440bc914c2bf02136d57d2a08d26a1c174c4457c72f1d",
+          "sha1": "f766c3a6ccfc21775e29683bf8740304ef0315ed",
+          "md5": "39f7e8f34aab079961fc708a959eab9c"
         }
       ]
     },
@@ -106,11 +106,11 @@
         {
           "name": "fastconfigapi-neoforge-1.21-2.1.0-dev-shadow.jar",
           "url": "fastconfigapi-neoforge-1.21-2.1.0-dev-shadow.jar",
-          "size": 35458,
-          "sha512": "65ec09622c0a1f95e13541d4a2427508323fc56c8692022b7772b84cafd91243e4625e5967012400f5ff73e744343f23f6eac202f1e792ce44a57b9fb0cfb4e1",
-          "sha256": "b4e94dd695c1505bf648f56fa9d537e02f1b323fa890276c9d8d53147819a697",
-          "sha1": "fc3665caba43be2131f5e272874950bab60bd0e8",
-          "md5": "3dc91a043af086c4dd3b6f53b50cf706"
+          "size": 49298,
+          "sha512": "44c517f02bbdef68bdfff27bfe7028e05e888e9df96ab60d5ef3eab073d3c82fe9df827a0636589ce140c55f8b10bbdf48115ad9fcfa311f87870d89d8181c54",
+          "sha256": "0df2af742e774a0e609a4171629c379c6f9e0b4aea90093dee45e0e2a6c7cbfd",
+          "sha1": "4c7e7a93ec87af0b9934dbfb2dab9cae1b2bf69c",
+          "md5": "11f54a7850c018d12e2e6904a294b908"
         }
       ]
     }

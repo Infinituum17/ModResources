@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "infinituum.fastconfigapi",
+    "module": "fastconfigapi-neoforge",
+    "version": "1.21.2-2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "infinituum.void_lib",
+          "module": "void_lib-neoforge",
+          "version": {
+            "requires": "1.21.2-1.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastconfigapi-neoforge-1.21.2-2.1.0.jar",
+          "url": "fastconfigapi-neoforge-1.21.2-2.1.0.jar",
+          "size": 108371,
+          "sha512": "e5dd6dd92149ebaf64edb5e3eb4a82facd3ac277e44555a46ec1a3e172b4ebddfed7ee75092e3d0f6087a2d47b70f36a851a1fba088e086ceb85b0d405f92d72",
+          "sha256": "bcbb6f1d71aec7e85fa4ad2d6bb2c51592891e6b368133656478416855b0a03b",
+          "sha1": "7dd0f472889031b346a40266c419abfb611f6170",
+          "md5": "02137dbdaefefadb346c4d2386b95f8c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "infinituum.void_lib",
+          "module": "void_lib-neoforge",
+          "version": {
+            "requires": "1.21.2-1.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastconfigapi-neoforge-1.21.2-2.1.0.jar",
+          "url": "fastconfigapi-neoforge-1.21.2-2.1.0.jar",
+          "size": 108371,
+          "sha512": "e5dd6dd92149ebaf64edb5e3eb4a82facd3ac277e44555a46ec1a3e172b4ebddfed7ee75092e3d0f6087a2d47b70f36a851a1fba088e086ceb85b0d405f92d72",
+          "sha256": "bcbb6f1d71aec7e85fa4ad2d6bb2c51592891e6b368133656478416855b0a03b",
+          "sha1": "7dd0f472889031b346a40266c419abfb611f6170",
+          "md5": "02137dbdaefefadb346c4d2386b95f8c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-neoforge-1.21.2-2.1.0-sources.jar",
+          "url": "fastconfigapi-neoforge-1.21.2-2.1.0-sources.jar",
+          "size": 4580,
+          "sha512": "f0e76f7938788110cd0ab439e9245d0838f20e8ef422a428608bad3201cbe81529b8b4df9a535317debeb94f1653a8af49f2abbcce6125215142d5b034d06b48",
+          "sha256": "1e1e3f4e8e826726b1c688cc922720df5c6e18759a3f55b5541da6b393210b07",
+          "sha1": "ef534e95ae6e1b647efe2abee5d1c971e57bcae4",
+          "md5": "5d708ea4083062040593eeceaee7faa9"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-neoforge-1.21.2-2.1.0-dev-shadow.jar",
+          "url": "fastconfigapi-neoforge-1.21.2-2.1.0-dev-shadow.jar",
+          "size": 49293,
+          "sha512": "87b77eb15f754b5c87e83f8769855bf6130f19402e27e9f91ecdff3fa11917b4545232861919da1445d4ac48f2ade0188682208b708c83d433164cc8a155ccd4",
+          "sha256": "f226a78bdf2e689cba75d3b13d4a5ebffad448d3f886ed3c0c87fdd146003d25",
+          "sha1": "bff102d0807b1f2ace219d7e511f6e0bc48596b0",
+          "md5": "63183b4d1f4f22baad8a2296b9f7e450"
+        }
+      ]
+    }
+  ]
+}

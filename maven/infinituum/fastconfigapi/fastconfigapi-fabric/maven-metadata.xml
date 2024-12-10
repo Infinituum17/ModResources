@@ -3,8 +3,8 @@
   <groupId>infinituum.fastconfigapi</groupId>
   <artifactId>fastconfigapi-fabric</artifactId>
   <versioning>
-    <latest>1.21.2-2.0.6</latest>
-    <release>1.21.2-2.0.6</release>
+    <latest>1.21.4-2.1.0</latest>
+    <release>1.21.4-2.1.0</release>
     <versions>
       <version>1.19.2-1.0.1</version>
       <version>1.19.3-1.0.1</version>
@@ -36,7 +36,11 @@
       <version>1.20.1-2.1.0</version>
       <version>1.21-2.1.0</version>
       <version>1.21.2-2.0.6</version>
+      <version>1.21.1-2.1.0</version>
+      <version>1.21.2-2.1.0</version>
+      <version>1.21.3-2.1.0</version>
+      <version>1.21.4-2.1.0</version>
     </versions>
-    <lastUpdated>20241210020831</lastUpdated>
+    <lastUpdated>20241210172427</lastUpdated>
   </versioning>
 </metadata>

@@ -38,13 +38,13 @@
     <dependency>
       <groupId>infinituum.void_lib</groupId>
       <artifactId>void_lib-fabric</artifactId>
-      <version>1.21-1.1.5</version>
+      <version>1.21-1.1.6</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>net.fabricmc</groupId>
       <artifactId>fabric-loader</artifactId>
-      <version>0.16.5</version>
+      <version>0.16.9</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

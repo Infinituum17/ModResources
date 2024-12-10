@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "infinituum.fastconfigapi",
+    "module": "fastconfigapi-fabric",
+    "version": "1.21.4-2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "infinituum.void_lib",
+          "module": "void_lib-fabric",
+          "version": {
+            "requires": "1.21.4-1.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastconfigapi-fabric-1.21.4-2.1.0.jar",
+          "url": "fastconfigapi-fabric-1.21.4-2.1.0.jar",
+          "size": 105347,
+          "sha512": "ea5a4d6d732743ee1fa500037424d1d4569a89ed196fb70c1b371504a010c12ae47caee30ca5529ab7af951cab9e871ca636bccd9c5e55403facc3b60113d85e",
+          "sha256": "0d8c7e3deed279f9e22932cb567c28db2cdde4c3b994e256f33f7077fd30853c",
+          "sha1": "ea1e2cb9e31fb227ef4935eed0f0de41b90bded2",
+          "md5": "08bee72e3615c24ed2acf64ef4669aa4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "infinituum.void_lib",
+          "module": "void_lib-fabric",
+          "version": {
+            "requires": "1.21.4-1.1.6"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastconfigapi-fabric-1.21.4-2.1.0.jar",
+          "url": "fastconfigapi-fabric-1.21.4-2.1.0.jar",
+          "size": 105347,
+          "sha512": "ea5a4d6d732743ee1fa500037424d1d4569a89ed196fb70c1b371504a010c12ae47caee30ca5529ab7af951cab9e871ca636bccd9c5e55403facc3b60113d85e",
+          "sha256": "0d8c7e3deed279f9e22932cb567c28db2cdde4c3b994e256f33f7077fd30853c",
+          "sha1": "ea1e2cb9e31fb227ef4935eed0f0de41b90bded2",
+          "md5": "08bee72e3615c24ed2acf64ef4669aa4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-fabric-1.21.4-2.1.0-sources.jar",
+          "url": "fastconfigapi-fabric-1.21.4-2.1.0-sources.jar",
+          "size": 4628,
+          "sha512": "df5b36e15db9d188eee4b80f5080056e6367299bfd73e02b7148c92e033693326c4aa03cc6c0b1c97bbb88dade3d93bf9997fc0dfe75e639cf9c208fd5926283",
+          "sha256": "4b4e0a7eeb9c50f14245681bf588a4cfead3f9958ecf3a6d3437f110d565b47a",
+          "sha1": "aa2876c2c56cd328ab1e411d3936d2ee959994c6",
+          "md5": "6ed7050635a26f48d5e886a47cab5e65"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-fabric-1.21.4-2.1.0-dev-shadow.jar",
+          "url": "fastconfigapi-fabric-1.21.4-2.1.0-dev-shadow.jar",
+          "size": 46565,
+          "sha512": "4a6495556d5de353ec94cb047791d76c9924b8db9fd6f392e7c55fe55b6a10f4b67d3f9745e0cf39f189a1169e919bc81c325891951e551e91c7750dffe64cac",
+          "sha256": "e9b4c2ca3d245975f82e7be299d3a4cfc939901c2287191a5a838bf3166a02c8",
+          "sha1": "07f898c9d97983460208872b1a988f5a90667cea",
+          "md5": "24c4994ef3643efddf519cfdb881e66d"
+        }
+      ]
+    }
+  ]
+}
