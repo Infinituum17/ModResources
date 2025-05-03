@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.11.1"
+      "version": "8.14"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "fastconfigapi-common-2.1.0.jar",
           "url": "fastconfigapi-common-2.1.0.jar",
-          "size": 42799,
-          "sha512": "2bdf39e52b3feccde797aab388dec105f4b1ae2b53128a1075db8f52435ad6566b43e7cbcecb01601ccf145368a17d066ae2aa4000608cd6ab026610df856aa6",
-          "sha256": "bda5a46ea1299b432dc27de5ddd070953cfd3561ea5c4da01b5be3ff05bcd70a",
-          "sha1": "9e5ec13f75ae41e11f3c7424e4c3fbfa91e2b03a",
-          "md5": "fea54e75bdf05daa69ae4bf3cb8d9ceb"
+          "size": 41456,
+          "sha512": "3b9fb58e371f0d4b5887a876f7fe51d12311c10aa7871ab212c08a5e7e6948eb115a38cf16c6625326570307932bf76b9c895e74979a08bd317e25538cbcab34",
+          "sha256": "bcfb51767b182fe48412c313e9bc6bb9e18b16a5bea95fafdda87bb6e876de4a",
+          "sha1": "b7df26516046aa623cf19c91db8b1d9e1184f629",
+          "md5": "789d77c543d92e2cfc8beb77d96a755c"
         }
       ]
     },
@@ -49,7 +49,7 @@
           "group": "net.fabricmc",
           "module": "fabric-loader",
           "version": {
-            "requires": "0.16.9"
+            "requires": "0.16.14"
           }
         }
       ],
@@ -57,11 +57,11 @@
         {
           "name": "fastconfigapi-common-2.1.0.jar",
           "url": "fastconfigapi-common-2.1.0.jar",
-          "size": 42799,
-          "sha512": "2bdf39e52b3feccde797aab388dec105f4b1ae2b53128a1075db8f52435ad6566b43e7cbcecb01601ccf145368a17d066ae2aa4000608cd6ab026610df856aa6",
-          "sha256": "bda5a46ea1299b432dc27de5ddd070953cfd3561ea5c4da01b5be3ff05bcd70a",
-          "sha1": "9e5ec13f75ae41e11f3c7424e4c3fbfa91e2b03a",
-          "md5": "fea54e75bdf05daa69ae4bf3cb8d9ceb"
+          "size": 41456,
+          "sha512": "3b9fb58e371f0d4b5887a876f7fe51d12311c10aa7871ab212c08a5e7e6948eb115a38cf16c6625326570307932bf76b9c895e74979a08bd317e25538cbcab34",
+          "sha256": "bcfb51767b182fe48412c313e9bc6bb9e18b16a5bea95fafdda87bb6e876de4a",
+          "sha1": "b7df26516046aa623cf19c91db8b1d9e1184f629",
+          "md5": "789d77c543d92e2cfc8beb77d96a755c"
         }
       ]
     },
@@ -77,11 +77,11 @@
         {
           "name": "fastconfigapi-common-2.1.0-sources.jar",
           "url": "fastconfigapi-common-2.1.0-sources.jar",
-          "size": 31510,
-          "sha512": "0859e7441ab90613a2f081ff7b71e97b91a8176667c9f9bb9ccc333c8e66b2b18fd70ba25faa1f24f32f41e3defecfa5d4923d2ce8d08ec1f3c93f892e3abacf",
-          "sha256": "d9813e004b534a1df3e2e6308fbc94f12c13e503fd7c5ff00c0826f1aee39450",
-          "sha1": "35edde441f45cddfdfa35eb8a3bafd2dba19e033",
-          "md5": "f07958e9b4da4100e2fae1ccf12bf1ab"
+          "size": 31293,
+          "sha512": "c5647d205d7ba96a580628824caa7fc54b5ab5a61855857aabfadbe02277d00ae637ca14d86016011ebe2aaec13157c4565c072eb1ecb09e185533f87e450034",
+          "sha256": "66ea362241ee505bed8d7d42d557a2bf693bbb0d27bd344ef294d25835708bcc",
+          "sha1": "a8a4d78395e71d0dec2483d72fc3947738ed4f73",
+          "md5": "f2313a83df79bf1c60609b71a14a5cd7"
         }
       ]
     }

@@ -15,8 +15,8 @@
   <url>https://github.com/Infinituum17/FastConfigAPI</url>
   <licenses>
     <license>
-      <name>MIT</name>
-      <url>https://spdx.org/licenses/MIT.html</url>
+      <name>Infinituum's License</name>
+      <url>https://github.com/Infinituum17/FastConfigAPI/blob/main/LICENSE.md</url>
     </license>
   </licenses>
   <developers>
@@ -38,7 +38,7 @@
     <dependency>
       <groupId>net.fabricmc</groupId>
       <artifactId>fabric-loader</artifactId>
-      <version>0.16.9</version>
+      <version>0.16.14</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
