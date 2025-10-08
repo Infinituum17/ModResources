@@ -38,7 +38,7 @@
     <dependency>
       <groupId>net.fabricmc</groupId>
       <artifactId>fabric-loader</artifactId>
-      <version>0.16.14</version>
+      <version>0.17.2</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
