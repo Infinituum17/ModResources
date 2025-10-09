@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "infinituum.fastconfigapi",
+    "module": "fastconfigapi-forge",
+    "version": "1.20.1-2.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "infinituum.void_lib",
+          "module": "void_lib-forge",
+          "version": {
+            "requires": "1.20.1-1.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastconfigapi-forge-1.20.1-2.1.1.jar",
+          "url": "fastconfigapi-forge-1.20.1-2.1.1.jar",
+          "size": 289883,
+          "sha512": "43bca37b3883f1621e768c711f2e41b03da0b49b9c82d647c883cec5a084b1ccad566dcf424670cce519d626cb16d1508c03ffe2eec55621ebeeb4e200c760cb",
+          "sha256": "a1399c9ba180514129561830991d56477110578f68d9341ef57ae99cb69b8f5e",
+          "sha1": "d757f8ed4fd32d608646cde5b4e1821677053486",
+          "md5": "0d3f0c708139d9b081c2c02c6496de26"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.llamalad7",
+          "module": "mixinextras-forge",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "infinituum.void_lib",
+          "module": "void_lib-forge",
+          "version": {
+            "requires": "1.20.1-1.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastconfigapi-forge-1.20.1-2.1.1.jar",
+          "url": "fastconfigapi-forge-1.20.1-2.1.1.jar",
+          "size": 289883,
+          "sha512": "43bca37b3883f1621e768c711f2e41b03da0b49b9c82d647c883cec5a084b1ccad566dcf424670cce519d626cb16d1508c03ffe2eec55621ebeeb4e200c760cb",
+          "sha256": "a1399c9ba180514129561830991d56477110578f68d9341ef57ae99cb69b8f5e",
+          "sha1": "d757f8ed4fd32d608646cde5b4e1821677053486",
+          "md5": "0d3f0c708139d9b081c2c02c6496de26"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-forge-1.20.1-2.1.1-sources.jar",
+          "url": "fastconfigapi-forge-1.20.1-2.1.1-sources.jar",
+          "size": 6094,
+          "sha512": "4fb1ac3dd4857580038a194484f6cc5014950eb4a589a4b6cf65186853216fcb8f38cef89a73fccf9db15c6daf1e984ca47b284fd8e1370e9013c896dae11c28",
+          "sha256": "d5afd785ad6c67362ee78d7979b3ed4c044841f9fce3043642e982f3b68956a5",
+          "sha1": "4b6802c8d0818c8b88ca0291299f6f6da183eb8d",
+          "md5": "411c754cc9077029afdbf8cbb5505fd7"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastconfigapi-forge-1.20.1-2.1.1-dev-shadow.jar",
+          "url": "fastconfigapi-forge-1.20.1-2.1.1-dev-shadow.jar",
+          "size": 48349,
+          "sha512": "4deefa8adef0a61316e98e02104e3366a20cd12c952ac784645f5302d49173368a6f730a7454b8ce7c7bea0d7f08ab3eee4ff5e2d7dd8ec8cd6bf1cdf5203299",
+          "sha256": "39c7a96db986dfae84392720b0231d4bb621cf55c2f9f3553854569f47580713",
+          "sha1": "4ff70d749b1d3fde7cbd08b141740fc123c5d809",
+          "md5": "72520d416e0f3a11effd8ec16e5a4993"
+        }
+      ]
+    }
+  ]
+}
